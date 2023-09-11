@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^8.0.3",
     "tsup": "^7.2.0",
     "tsx": "^3.12.8",
     "typescript": "^5.2.2",
