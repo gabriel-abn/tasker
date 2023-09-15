@@ -14,8 +14,7 @@
   "lint-staged": {
     "*.ts": [
       "eslint --fix",
-      "npm run test:commit",
-      "git add"
+      "npm run test:commit"
     ]
   },
   "keywords": [],
