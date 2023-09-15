@@ -6,22 +6,17 @@
     "extends": [
         "eslint:recommended",
         "standard-with-typescript",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
     ],
     "parser": "@typescript-eslint/parser",
     "plugins": [
         "@typescript-eslint"
     ],
     "rules": {
-        "camelcase": "error",
-        "semi": [
-            "error",
-            "always"
-        ],
         "@typescript-eslint/strict-boolean-expressions": "off",
         "@typescript-eslint/prefer-nullish-coalescing": "off",
         "@typescript-eslint/consistent-type-definitions": "off",
-        "@typescript-eslint/member-delimiter-style": "off",
-        "@typescript-eslint/semi": "off"
+        "@typescript-eslint/consistent-type-imports": "off"
     }
 }
